@@ -33,27 +33,49 @@ section {
     color: aliceblue;
 }
 section.uno {
-    background-image: url(imgcorazon.jpg);
     padding-top: 10vh;
     padding-bottom: 10vh;
     padding-left: 30px;
     line-height: 1.9em;
     font-family: var(--fonte3);
     font-size: 2.2vw;
-    color: aliceblue;
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.685);
 }
 
-section.dos { padding-top: 10vh;
+section.dos { 
+    padding-top: 10vh;
     padding-bottom: 10vh;
     padding-left: 30px;
     line-height: 1.9em;
     font-family: var(--fonte3);
     font-size: 2.2vw;
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.685);
     }
 
 section > p {
     color: aliceblue;
     padding-bottom: 2em;
+}
+section#unos{
+    background-image: url(img3.jpg);
+    background-position: right center;
+    background-size: cover;
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.685);
+    background-attachment: fixed;
+}
+section#duos {
+    background-image: url(img5.jpg);
+    background-position: right center;
+    background-size: cover;
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.685);
+    background-attachment: fixed;
+}
+p.meio {
+    text-align: center;
+}
+p#preto {
+    color: rgb(255, 255, 255);
 }
 footer {
     padding-top: 1px;
