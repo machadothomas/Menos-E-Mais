@@ -1,0 +1,66 @@
+@charset "UTF-8";
+body {
+    background-color: rgb(80, 23, 23);
+}
+header {
+    text-align: center;
+    background-color: rgb(114, 23, 23);
+    color: aliceblue;
+    font-variant: small-caps;
+    font-size: 2vw;
+}
+header > h1 {
+    padding-top: 1.5px;
+}
+header > p {
+    padding-bottom: 4px;
+}
+a {
+    color: aliceblue;
+    text-decoration: none;
+    font-weight: bolder;
+}
+a:hover {
+    text-decoration: underline;
+}
+section {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    padding-left: 30px;
+    line-height: 1.9em;
+    font-family: var(--fonte3);
+    font-size: 2.2vw;
+    color: aliceblue;
+}
+section.uno {
+    background-image: url(imgcorazon.jpg);
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    padding-left: 30px;
+    line-height: 1.9em;
+    font-family: var(--fonte3);
+    font-size: 2.2vw;
+    color: aliceblue;
+}
+
+section.dos { padding-top: 10vh;
+    padding-bottom: 10vh;
+    padding-left: 30px;
+    line-height: 1.9em;
+    font-family: var(--fonte3);
+    font-size: 2.2vw;
+    }
+
+section > p {
+    color: aliceblue;
+    padding-bottom: 2em;
+}
+footer {
+    padding-top: 1px;
+    padding-bottom: 1px;
+    text-align: center;
+    background-color: rgb(114, 23, 23);
+    color: aliceblue;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.5vw;
+}
